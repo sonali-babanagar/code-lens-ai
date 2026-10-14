@@ -1,0 +1,49 @@
+# ---- Core Framework ----
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic==2.10.4
+pydantic-settings==2.7.1
+python-dotenv==1.0.1
+python-multipart==0.0.20
+requests==2.32.3
+
+# ---- LLM & Agent Orchestration ----
+langchain==0.3.14
+langchain-openai==0.3.0
+langchain-huggingface==0.1.2
+langgraph==0.2.60
+langgraph-checkpoint-postgres==2.0.11
+faiss-cpu==1.9.0.post1
+langchain-community==0.3.14
+
+# ---- Azure OpenAI ----
+openai==1.58.1
+truststore==0.10.0
+
+# ---- Database (PostgreSQL + pgvector) ----
+sqlalchemy[asyncio]==2.0.36
+asyncpg==0.30.0
+pgvector==0.3.6
+alembic==1.14.1
+
+# ---- Embeddings & Text Processing ----
+tiktoken==0.8.0
+langchain-text-splitters==0.3.4
+
+sentence-transformers==3.3.1
+
+# ---- HTTP Client (for GitHub URL fetching) ----
+httpx==0.28.1
+
+# ---- Streaming & Async Utilities ----
+sse-starlette==2.2.1
+
+# ---- Testing ----
+pytest==8.3.4
+pytest-asyncio==0.25.0
+
+# ---- Frontend ----
+streamlit==1.41.1
+
+# ---- Dev Utilities ----
+ruff==0.8.6
